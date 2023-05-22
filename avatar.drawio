@@ -1,9 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T06:47:06.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.2.9" etag="l0wdY7uGljDui0jojp4z" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T07:10:58.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ALrXO5rVOWTyyA9wc8cD" version="21.2.9" type="github">
   <diagram name="第 1 页" id="RVtZiryanWoQw5lHi4cz">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yv8MbHy7xNgvaLxvFnRB-1" target="yv8MbHy7xNgvaLxvFnRB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-1" value="avatart-service&lt;br&gt;服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yv8MbHy7xNgvaLxvFnRB-6" target="yv8MbHy7xNgvaLxvFnRB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yv8MbHy7xNgvaLxvFnRB-6" target="yv8MbHy7xNgvaLxvFnRB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-6" value="是否订阅zeus" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yv8MbHy7xNgvaLxvFnRB-8" target="yv8MbHy7xNgvaLxvFnRB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="yv8MbHy7xNgvaLxvFnRB-8" target="yv8MbHy7xNgvaLxvFnRB-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="563" />
+              <mxPoint x="150" y="563" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-8" value="获取所有组织资产id，并建立订阅关系，" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-10" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yv8MbHy7xNgvaLxvFnRB-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-11" value="等待他人调用&lt;br&gt;自定义api" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-13" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yv8MbHy7xNgvaLxvFnRB-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-14" value="等待zeus的组织资产id创建事件" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yv8MbHy7xNgvaLxvFnRB-16" target="yv8MbHy7xNgvaLxvFnRB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-16" value="avatart-lib&lt;br&gt;服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yv8MbHy7xNgvaLxvFnRB-17" target="yv8MbHy7xNgvaLxvFnRB-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-17" value="业务方注册回调函数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yv8MbHy7xNgvaLxvFnRB-19" target="yv8MbHy7xNgvaLxvFnRB-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="874" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-19" value="业务方（client、odin等服务）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="814" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-23" value="回调函数消费单个&lt;br&gt;组织资产id" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yv8MbHy7xNgvaLxvFnRB-26" target="yv8MbHy7xNgvaLxvFnRB-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="540" />
+              <mxPoint x="870" y="540" />
+              <mxPoint x="870" y="930" />
+              <mxPoint y="930" />
+              <mxPoint y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yv8MbHy7xNgvaLxvFnRB-26" target="yv8MbHy7xNgvaLxvFnRB-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-26" value="回调函数消费所有的组织资产id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-37" value="组织资产id创建事件" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="620" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-39" value="获取所有的组织资产id" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="555" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8MbHy7xNgvaLxvFnRB-43" value="组织资产id创建事件" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="740" width="124" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
